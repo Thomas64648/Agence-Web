@@ -1,16 +1,29 @@
+
+@font-face {
+    font-family: rationalistT;
+    src: url(./Rationalist/TT\ Rationalist\ Trial\ Normal.ttf);
+}
+
 body {
-	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
 }
 
+.logo{
+    width: auto;
+    height: 40px;
+    padding-left: 15px;
+}
+
 h1 {
-	font-size: 36px;
+	font-family: rationalistT;
+    font-size: 36px;
 	margin-top: 0;
 }
 
 p {
-	font-size: 18px;
+	font-family: rationalistT
+    font-size: 18px;
 	line-height: 1.5;
 }
 
@@ -18,6 +31,34 @@ ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+    font-size: 20px;
+    align-items: center;
+}
+
+@font-face {
+    font-family: rationalistM;
+    src: url(./Rationalist/TT\ Rationalist\ Trial\ Black.ttf);
+}
+
+.menu{
+    padding-top: 5px;
+}
+
+.contactbutton{
+    background-color: #d96438;
+    font-family: rationalistM;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    margin-left: 40px;
+    border: solid;
+    border-color: #d96438;
+}
+
+.contactbutton:hover{
+    background-color: white;
+    color: #d96438;
 }
 
 a {
@@ -27,11 +68,12 @@ a {
 
 /* Header styles */
 header {
-	background-color: #f2f2f2;
+	background-color: #f2f2f200;
 	padding: 20px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+    font-family: rationalistM;
 }
 
 nav ul {
@@ -42,9 +84,11 @@ nav li {
 	margin-left: 20px;
 }
 
-nav li.active a {
-	font-weight: bold;
+#active {
+	color: #d96438;
+    background-color: white;
 }
+
 
 /* Main styles */
 main {
