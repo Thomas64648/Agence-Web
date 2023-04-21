@@ -467,7 +467,7 @@ main{
 	width: 400px;
 	height: 300px;
 	position: relative;
-	margin-left: 10%;
+	margin-left: 15%;
 	border-radius: 80px;
 	background: url(./Images/Screenshot_2023-04-21_15-30-30.png);
 	box-shadow: 15px 15px 30px #E76F51;
@@ -478,7 +478,7 @@ main{
 	width: 400px;
 	height: 300px;
 	position: relative;
-	margin-top: 15%;
+	margin-top: 20%;
 	margin-left: 40%;
 	border-radius: 80px;
 	background: url(./Images/Screenshot_2023-04-21_15-34-23.png);
@@ -490,8 +490,8 @@ main{
 	width: 400px;
 	height: 300px;
 	position: relative;
-	margin-top: 32%;
-	margin-left: 13%;
+	margin-top: 40%;
+	margin-left: 27%;
 	border-radius: 80px;
 	background: url(./Images/Screenshot_2023-04-21_15-35-34.png);
 	box-shadow: 15px 15px 30px #E76F51;
