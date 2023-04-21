@@ -15,6 +15,8 @@
 body {
 	margin: 0;
 	padding: 0;
+	max-width: 100%;
+	overflow-x: hidden;
 	background: linear-gradient(to right, #f9d523a9, #e65c00a4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
@@ -31,6 +33,16 @@ h1 {
 	margin-top: 0;
 }
 
+h2{
+	font-family: rationalistT;
+    font-size: 35px;
+}
+
+h3{
+	font-family: rationalistT;
+	font-size: 30px;
+}
+
 p {
 	font-family: rationalistT;
     font-size: 18px;
@@ -40,9 +52,12 @@ p {
 ul {
 	margin: 0;
 	padding: 0;
-	list-style: none;
     font-size: 20px;
     align-items: center;
+}
+
+.ul1{
+	list-style-type: none;
 }
 
 .menu{
@@ -259,19 +274,19 @@ main{
   
   /*Card Text*/
   .textcardindex1-title {
-	font-family: rationalistM;
+	font-family: rationalistT;
 	font-size: 1.3rem;
 	font-weight: 700;
   }
 
   .textcardindex2-title {
-	font-family: rationalistM;
+	font-family: rationalistT;
 	font-size: 1.3rem;
 	font-weight: 700;
   }
 
   .textcardindex3-title {
-	font-family: rationalistM;
+	font-family: rationalistT;
 	font-size: 1.3rem;
 	font-weight: 700;
   }
@@ -322,11 +337,12 @@ main{
   .messagedefilant {
 	display: block;
 	margin-top: 100px;
-	margin-left: -3%;
+	margin-left: -1%;
 	padding: 0;
 	overflow: hidden;
 	position: relative;
-	width: 105%;
+	width: 102%;
+	overflow: hidden;
 	height: 80px;
 	rotate: -6deg;
 	font-family: rationalistM;
@@ -334,7 +350,7 @@ main{
    
   .messagedefilant div {
 	position: absolute;
-	min-width: 110%; /* au minimum la largeur du conteneur */
+	min-width: 100%; /* au minimum la largeur du conteneur */
   }
    
   .messagedefilant div span, 
@@ -372,11 +388,11 @@ main{
   .messagedefilant2 {
 	display: block;
 	margin: 0;
-	margin-left: -3%;
+	margin-left: -1%;
 	padding: 0;
 	overflow: hidden;
 	position: relative;
-	width: 105%;
+	width: 102%;
 	height: 80px;
 	rotate: 4deg;
 	font-family: rationalistM;
@@ -384,7 +400,7 @@ main{
    
   .messagedefilant2 div {
 	position: absolute;
-	min-width: 110%; /* au minimum la largeur du conteneur */
+	min-width: 100%; /* au minimum la largeur du conteneur */
   }
    
   .messagedefilant2 div span, 
@@ -422,53 +438,63 @@ main{
 /*presentation de l'entreprise */
 
 .presentation{
-	font-family: rationalistM;
 	margin-top: 6%;
 	margin-bottom: 10%;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	grid-template-columns: 30% 70%;
+	grid-template-columns: 35% 65%;
 	grid-column-gap: 0px;
 	grid-row-gap: 0px; 
 }
 
 .presentationtext{
+	list-style-type: disc;
 	position: relative;
 	margin-top: 8%;
 	margin-left: 10%;
 	grid-area: 1 / 1 / 2 / 2; 
 }
 
+.ul2{
+	margin-left: 50px;
+}
+
+.presentationtitle{
+	text-decoration: underline;
+}
+
 .cardpresentationtext1 {
-	width: 190px;
+	width: 400px;
 	height: 300px;
 	position: relative;
 	margin-left: 10%;
-	border-radius: 100px;
-	background: #e0e0e0;
-	box-shadow: 15px 15px 30px #bebebe;
+	border-radius: 80px;
+	background: url(./Images/Screenshot_2023-04-21_15-30-30.png);
+	box-shadow: 15px 15px 30px #E76F51;
 	grid-area: 1 / 2 / 2 / 23
   }
 
   .cardpresentationtext2 {
-	width: 190px;
+	width: 400px;
 	height: 300px;
 	position: relative;
+	margin-top: 15%;
 	margin-left: 40%;
-	border-radius: 100px;
-	background: #e0e0e0;
-	box-shadow: 15px 15px 30px #bebebe;
+	border-radius: 80px;
+	background: url(./Images/Screenshot_2023-04-21_15-34-23.png);
+	box-shadow: 15px 15px 30px #E76F51;
 	grid-area: 1 / 2 / 2 / 3;
   }
 
   .cardpresentationtext3 {
-	width: 190px;
+	width: 400px;
 	height: 300px;
 	position: relative;
-	margin-left: 70%;
-	border-radius: 100px;
-	background: #e0e0e0;
-	box-shadow: 15px 15px 30px #bebebe;
+	margin-top: 32%;
+	margin-left: 13%;
+	border-radius: 80px;
+	background: url(./Images/Screenshot_2023-04-21_15-35-34.png);
+	box-shadow: 15px 15px 30px #E76F51;
 	grid-area: 1 / 2 / 2 / 3;
   }
 
